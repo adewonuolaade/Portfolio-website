@@ -1,0 +1,417 @@
+ /* Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    background:linear-gradient(
+    135deg,
+    #e5e5ea,
+    #e8e8e9,
+    #e5e5e7
+    );
+
+    color:#646374;
+
+    line-height:1.8;
+
+}
+
+/* Header */
+
+header{
+
+    background:white;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:20px 8%;
+
+    position:sticky;
+
+    top:0;
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+}
+
+header h1{
+
+    color:#4d20ff;
+
+}
+
+nav a{
+
+    text-decoration:none;
+
+    color:#555;
+
+    margin-left:25px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+nav a:hover{
+
+    color:#575edc;
+
+}
+
+/* Hero */
+
+.hero{
+
+    min-height:80vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:80px 20px;
+
+}
+
+.hero h2{
+
+    font-size:55px;
+
+    color:#3612eb;
+
+    margin-bottom:20px;
+
+}
+
+.hero p{
+
+    max-width:700px;
+
+    margin-bottom:35px;
+
+    font-size:18px;
+
+}
+
+.btn{
+
+    background:#0f0be7;
+
+    color:white;
+
+    padding:15px 35px;
+
+    border-radius:40px;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+    font-weight:600;
+
+}
+
+.btn:hover{
+
+    transform:translateY(-4px);
+
+    box-shadow:0 10px 25px rgba(216,107,135,.35);
+
+}
+
+/* Featured Poem */
+
+.poem{
+
+    width:80%;
+
+    margin:60px auto;
+
+    background:white;
+
+    padding:50px;
+
+    border-radius:25px;
+
+    text-align:center;
+
+    box-shadow:0 12px 30px rgba(0,0,0,.08);
+
+}
+
+.poem h2{
+
+    color:#244be7;
+
+    margin-bottom:15px;
+
+}
+
+.poem h3{
+
+    color:#5d44cc;
+
+    margin-bottom:25px;
+
+    font-size:30px;
+
+}
+
+.poem p{
+
+    max-width:800px;
+
+    margin:auto;
+
+    font-style:italic;
+
+    line-height:2.1;
+
+}
+
+.poem button{
+
+    margin-top:30px;
+
+    padding:13px 30px;
+
+    border:none;
+
+    border-radius:30px;
+
+    background:#572dff;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.poem button:hover{
+
+    transform:translateY(-4px);
+
+}
+
+/* Blog */
+
+.blog-section{
+
+    padding:90px 8%;
+
+}
+
+.blog-section h2{
+
+    text-align:center;
+
+    color:#1c55f1;
+
+    margin-bottom:45px;
+
+}
+
+.blog-container{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:30px;
+
+}
+
+.blog-card{
+
+    background:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+    transition:.4s;
+
+}
+
+.blog-card:hover{
+
+    transform:translateY(-8px);
+
+}
+
+.blog-card h3{
+
+    color:#0914de;
+
+    margin-bottom:15px;
+
+}
+
+.blog-card button{
+
+    margin-top:20px;
+
+    border:none;
+
+    background:#2e3ac7;
+
+    color:white;
+
+    padding:12px 25px;
+
+    border-radius:25px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.blog-card button:hover{
+
+    background:#1932c0;
+
+}
+
+/* About */
+
+.about{
+
+    width:80%;
+
+    margin:60px auto;
+
+    background:white;
+
+    padding:45px;
+
+    border-radius:25px;
+
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.about h2{
+
+    color:#1518cc;
+
+    margin-bottom:20px;
+
+}
+
+/* Contact */
+
+.contact{
+
+    width:80%;
+
+    margin:60px auto;
+
+    background:white;
+
+    padding:45px;
+
+    border-radius:25px;
+
+    text-align:center;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+
+}
+
+.contact h2{
+
+    color:#1566d8;
+
+    margin-bottom:20px;
+
+}
+
+.contact p{
+
+    margin:12px 0;
+
+}
+
+/* Footer */
+
+footer{
+
+    margin-top:70px;
+
+    background:#3d67da;
+
+    color:white;
+
+    text-align:center;
+
+    padding:30px;
+
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+header{
+
+flex-direction:column;
+
+}
+
+nav{
+
+margin-top:15px;
+
+}
+
+nav a{
+
+margin:0 10px;
+
+}
+
+.hero h2{
+
+font-size:38px;
+
+}
+
+.poem,
+.about,
+.contact{
+
+width:92%;
+
+}
+
+}

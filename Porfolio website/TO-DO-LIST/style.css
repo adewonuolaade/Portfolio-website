@@ -1,0 +1,279 @@
+/* Google Font */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+/* Reset */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+
+/* Body */
+
+body{
+    
+    font-family:'Ariel',sans-serif;
+
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    padding:30px;
+
+    background:
+    linear-gradient(
+    135deg,
+    #ced2dd,
+    #c2c0cd,
+    #cdccd6);
+
+}
+
+
+/* Container */
+
+.container{
+
+    width:550px;
+
+    background-color:white;
+
+    padding:50px;
+
+    border-radius:35px;
+
+    text-align:center;
+
+    box-shadow:
+    0 20px 40px
+    rgba(0,0,0,.12);
+
+    border: 2px solid #000000;
+
+    background:
+    linear-gradient(
+    to bottom,
+   #05040a,
+   #000000
+);
+
+}
+
+
+/* Heading */
+
+h1{
+
+    color:#5a48ffd0;
+
+    font-size:48px;
+
+    margin-bottom:15px;
+
+    text-shadow: 0 3px 10px rgb(24, 3, 255);
+
+    letter-spacing: 1px;
+
+}
+
+
+p{
+
+    color:#fdfdfd;
+
+    margin-bottom:35px;
+
+    line-height:1.8;
+
+}
+
+
+/* Input */
+
+input{
+
+    width:100%;
+
+    padding:18px;
+
+    border:none;
+
+    outline:none;
+
+    border-radius:50px;
+
+    background:#eff0f3;
+
+    font-size:16px;
+
+    box-shadow:
+    0 3px 10px 
+    rgb(245, 245, 245);
+
+}
+
+
+/* Button */
+
+button{
+
+    margin-top:25px;
+
+    padding:18px 40px;
+
+    border:none;
+
+    border-radius:50px;
+
+    background:#2727f7;
+
+    color:white;
+
+    font-size:17px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:.4s ease;
+
+}
+
+
+button:hover{
+
+    background:#2a30ea;
+
+    transform:
+    scale(1.05);
+    transition: 0.3;
+
+}
+
+
+/* Grocery List */
+
+ul{
+
+    margin-top:40px;
+
+}
+
+
+/* Grocery Cards */
+
+li{
+
+    list-style:none;
+
+    background:#3134ff;
+
+    padding:25px;
+
+    margin-bottom:20px;
+
+    border-radius:25px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    box-shadow:
+    0 10px 25px
+    rgba(0,0,0,.08);
+
+    transition:.4s ease;
+
+}
+
+
+li:hover{
+
+    transform:
+    translateY(-2px);
+
+}
+
+
+/* Delete Button */
+
+.delete{
+
+    background:#5220e7;
+
+    padding:12px 25px;
+
+    border-radius:50px;
+
+    color:white;
+
+    cursor:pointer;
+
+    transition:.4s ease;
+
+}
+
+
+.delete:hover{
+
+    background:#4916f1;
+
+}
+
+
+/* Completed Tasks */
+
+.completed{
+
+    text-decoration:line-through;
+
+    opacity:.7;
+
+}
+
+
+/* Responsive Design */
+
+@media(max-width:768px){
+
+
+.container{
+
+    width:100%;
+
+    padding:35px;
+
+    box-shadow: 0 10px 25px rgba(216,107,135,.12);
+
+}
+
+
+h1{
+
+    font-size:30px;
+
+}
+
+
+button{
+
+    width:100%;
+
+}
+
+}
+
+.quote{
+    color: #2e22d6;
+    font-size: 14px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
